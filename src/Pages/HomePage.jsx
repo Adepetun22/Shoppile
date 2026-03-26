@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import backgroundImage from '../assets/frame-149-10.png';
 import image7 from '../assets/image-70.png';
 import image82 from '../assets/image-82.png';
@@ -347,12 +348,12 @@ const HomePage = () => {
               designed to bring out your individuality and style.
             </p>
 <div className="flex flex-wrap gap-4 mb-8">
-              <button className="bg-black text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-gray-800 transition duration-300 cursor-pointer">
-                View Product Details
-              </button>
-              <button className="border border-black px-6 py-3 rounded-full text-sm font-medium hover:bg-black hover:text-white transition duration-300 cursor-pointer">
-                Shop Now
-              </button>
+
+              <Link to="/Category">
+                <button className="border border-black px-6 py-3 rounded-full text-sm font-medium hover:bg-black hover:text-white transition duration-300 cursor-pointer">
+                  Shop Now
+                </button>
+              </Link>
             </div>
             
             <div className="flex flex-wrap items-center justify-between">
@@ -463,9 +464,11 @@ const HomePage = () => {
         </div>
         
         <div className="text-center">
-          <button className="btn btn-secondary">
-            View All
-          </button>
+          <Link to="/Category">
+            <button className="btn btn-secondary">
+              View All
+            </button>
+          </Link>
         </div>
       </div>
 
@@ -532,9 +535,11 @@ const HomePage = () => {
         </div>
         
         <div className="text-center">
-          <button className="btn btn-secondary">
-            View All
-          </button>
+          <Link to="/Category">
+            <button className="btn btn-secondary">
+              View All
+            </button>
+          </Link>
         </div>
       </div>
 
