@@ -1,5 +1,5 @@
 # Shoppile
-Shoppile is a FULL-STACK Development web application [MERN] highly responsive, fashion-focused e-commerce platform that makes shopping effortless across all devices.
+Shoppile is a FULL-STACK web application [MERN] highly responsive, fashion-focused e-commerce platform that makes shopping effortless across all devices.
 
 Seamless Onboarding — Sign up or log in as a returning shopper
 
